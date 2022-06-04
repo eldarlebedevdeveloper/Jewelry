@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "BebasNeueThin";  
+    src: url("fonts/BebasNeueThin.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+@font-face{
+    font-family: "BlackVostenPersonalUse";
+    src: url("fonts/BlackVostenPersonalUse.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face{
+    font-family: "CodePro";
+    src: url("fonts/CodePro.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face{
+    font-family: "CodeProLight";
+    src: url("fonts/CodeProLight.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("fonts/montserrat-extralight.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
