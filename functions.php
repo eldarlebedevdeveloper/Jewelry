@@ -1,13 +1,9 @@
 <?php
-
 ## заменим слово «записи» на «статьи»
-//$labels = apply_filters( "post_type_labels_{$post_type}", $labels );
 add_filter('post_type_labels_post', 'rename_posts_labels');
-function rename_posts_labels( $labels ){
+function rename_posts_labels($labels)
+{
 	// заменять автоматически не пойдет например заменили: Запись = Статья, а в тесте получится так "Просмотреть статья"
-
-
-
 	$new = array(
 		'name'                  => 'Товары',
 		'singular_name'         => 'Товар',
@@ -31,6 +27,5 @@ function rename_posts_labels( $labels ){
 		'menu_name'             => 'Товары',
 		'name_admin_bar'        => 'Товар', // пункте "добавить"
 	);
-
-	return (object) array_merge( (array) $labels, $new );
+	return (object) array_merge((array) $labels, $new);
 }
